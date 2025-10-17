@@ -1,5 +1,5 @@
 import React from 'react';
-import './chooseus.css'
+import './Chooseus.css'
 
 // Reusable Icon components for clarity
 const QualityIcon = () => (
