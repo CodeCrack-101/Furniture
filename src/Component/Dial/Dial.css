@@ -1,15 +1,13 @@
 .whatsapp_float {
     position: fixed;
-    width: 60px;
+    width: 100px;
     height: 60px;
     bottom: 40px;
     right: 110px; /* adjust spacing between icons */
-    background-color: #25d366;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
     z-index: 100;
   }
   .whatsapp-icon {
@@ -19,16 +17,14 @@
   /* Call Button Styles */
   .call_float {
     position: fixed;
-    width: 60px;
+    width: 135px;
     height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #34b7f1;
+    bottom: 48px;
+    right: 30px;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
     z-index: 100;
   }
   .call-icon {
@@ -42,6 +38,17 @@
       height: 40px;
       bottom: 20px;
       font-size: 22px;
+    }
+    .h{
+      width: 80px;
+      margin-left: -20px;
+    }
+    .whatsapp_float { right: 60px; }
+    .h1{
+      width: 110px;
+      margin-top: -7px;
+      top: 20px;
+      margin-left: -40px;
     }
     .whatsapp_float { right: 60px; }
     .call_float { right: 10px; }

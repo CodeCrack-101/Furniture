@@ -4,6 +4,7 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import "./Contact.css";
 import Navbar from "../../Component/Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import Dial from '../../Component/Dial/Dial'
 
 const ContactUs = () => {
   const navigate = useNavigate();
@@ -17,6 +18,7 @@ const ContactUs = () => {
   return (
     <>
       <Navbar />
+      <Dial/>
       <div className="contact-wrapper">
         <div className="contact-container">
           {/* Left Info Panel */}
@@ -53,7 +55,14 @@ const ContactUs = () => {
 
         {/* Clickable Map Animation */}
         <div className="map-animation" onClick={openMap}>
-          <DotLottieReact src="/map.lottie" loop autoplay />
+          <DotLottieReact  style={{
+    width: '100%',
+    height: '100%',
+    marginTop: '20px',
+    marginLeft: '240px',
+    marginRight: 'auto',
+    display: 'block'
+  }} src="/map.lottie" loop autoplay />
         </div>
       </div>
       <Footer />

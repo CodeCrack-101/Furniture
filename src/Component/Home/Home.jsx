@@ -14,7 +14,7 @@ const Home = () => {
     <>
     <Navbar/>
     <Header/>
-    {/* <Dial/> */}
+    <Dial/>
     <Body/>
     <B/>
     <Hurry/>

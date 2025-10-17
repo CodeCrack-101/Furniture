@@ -2,6 +2,8 @@ import React from 'react';
 import './ServicesPage.css'; // Make sure to create this CSS file
 import Footer from '../../Component/Footer/Footer'
 import Navbar from '../../Component/Navbar/Navbar'
+import Dial from '../../Component/Dial/Dial'
+
 import { useNavigate } from 'react-router-dom';
 // Placeholder images for services - replace with your actual service-specific images
 const placeholderServiceImage = 'https://via.placeholder.com/100x100?text=Service';
@@ -48,6 +50,7 @@ const ServicesPage = () => {
   return (
     <>
     <Navbar/>
+    <Dial/>
     <div className="services-page-container">
 
       {/* Services Grid */}

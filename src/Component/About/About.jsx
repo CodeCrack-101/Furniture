@@ -3,11 +3,15 @@ import './About.css'; // Don't forget to create this CSS file!
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import Navbar from '../../Component/Navbar/Navbar'
 import Footer from '../../Component/Footer/Footer'
+import Dial from '../../Component/Dial/Dial'
+
 
 const AboutUsPage = () => {
   return (
     <>
     <Navbar/>
+    <Dial/>
+
     <div className="about-us-page">
       {/* Top Section: Vision & Image */}
       <section className="vision-section">

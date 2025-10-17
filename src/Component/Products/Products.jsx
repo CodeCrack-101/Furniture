@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Products.css'
 import Navbar from '../Navbar/Navbar';
 import Footer from '../../Component/Footer/Footer'
+import Dial from '../../Component/Dial/Dial'
 
 const allProducts = [
   { id: 1, name: 'Armchair (1-Seater)', category: 'Sofa', imageUrl: 'https://5.imimg.com/data5/SELLER/Default/2024/12/473374132/WG/NV/PV/34834503/sofas-accent-chairs-cookie-boucle-amor-1-seater-sofa-35-46554415989027-500x500.jpg' },
@@ -47,6 +48,7 @@ const ProductSearch = () => {
   return (
     <>
     <Navbar/>
+    <Dial/>
       <div className="product-search-container">
         <div className="search-header">
           <h1>Find Your Perfect Furniture</h1>

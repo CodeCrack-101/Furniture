@@ -134,10 +134,14 @@
     flex-direction: column;
   }
 
-  .contact-info,
-  .contact-form {
+  .contact-info {
     padding: 30px 20px;
   }
+  .contact-form
+  {
+    margin-left: -30px;
+  }
+
 }
 
 .map-section {
@@ -147,6 +151,7 @@
   padding: 20px;
 }
 
+
 .map-title {
   font-size: 1.8rem;
   font-weight: 600;
@@ -155,7 +160,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  margin-left: -105%;
+  margin-left: -1%;
   margin-top: -5.8%;
 }
 

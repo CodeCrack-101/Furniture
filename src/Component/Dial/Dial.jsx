@@ -1,8 +1,9 @@
 import React from "react";
 import "./Dial.css"; // Make sure to include the CSS below
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
-const whatsappNumber = "+91 9321282475"; // International format, e.g., 919999999999
-const callNumber = "+91 9321282475"; // Same format, e.g., 919999999999
+const whatsappNumber = "+91 9594718112"; // International format, e.g., 919999999999
+const callNumber = "+91 7021384306"; // Same format, e.g., 919999999999
 
 const App = () => (
   <div>
@@ -13,7 +14,12 @@ const App = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <i className="fa fa-whatsapp whatsapp-icon"></i>
+      <DotLottieReact
+          src="/whatsapp.lottie"
+          loop
+          autoplay
+          className="h"
+        />
     </a>
     
     {/* Direct Call Button */}
@@ -21,8 +27,12 @@ const App = () => (
       href={`tel:${callNumber}`}
       className="call_float"
     >
-      <i className="fa fa-phone call-icon"></i>
-    </a>
+    <DotLottieReact
+          src="/call.lottie"
+          loop
+          autoplay
+          className="h1"
+        />    </a>
   </div>
 );
 
