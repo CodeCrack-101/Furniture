@@ -1,0 +1,50 @@
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 110px; /* adjust spacing between icons */
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  .whatsapp-icon {
+    margin-top: 16px;
+  }
+  
+  /* Call Button Styles */
+  .call_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #34b7f1;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  .call-icon {
+    margin-top: 16px;
+  }
+  
+  /* Mobile Responsiveness */
+  @media screen and (max-width: 767px) {
+    .whatsapp_float, .call_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      font-size: 22px;
+    }
+    .whatsapp_float { right: 60px; }
+    .call_float { right: 10px; }
+    .whatsapp-icon, .call-icon { margin-top: 10px; }
+  }
+  

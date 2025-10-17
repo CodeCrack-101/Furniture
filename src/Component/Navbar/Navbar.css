@@ -1,0 +1,119 @@
+/* --- General Navbar Container --- */
+.Nav {
+  background-color: #ffffff;
+  position: fixed; /* Sticks to the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Stays on top of other content */
+}
+
+.Nav hr {
+  border: none;
+  height: 1px;
+  background-color: #f0f0f0;
+}
+
+/* --- Main Navigation Bar Layout --- */
+.Nav nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 80px;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+/* --- Navigation Links (Desktop) --- */
+.unorderlist {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.unorderlist li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #333;
+  padding-bottom: 5px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.unorderlist li a:hover {
+  color: #D87D4A;
+}
+
+.unorderlist li a.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 25px;
+  height: 3px;
+  background-color: #D87D4A;
+  border-radius: 2px;
+}
+
+/* --- Hamburger Menu Button --- */
+.menu-toggle {
+  display: none; /* Hide on desktop */
+  font-size: 1.75rem;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  z-index: 1100;
+  line-height: 1;
+  padding: 0.5rem;
+}
+
+/* --- RESPONSIVE STYLES for Mobile (768px and below) --- */
+@media (max-width: 768px) {
+  /* Show the hamburger menu on small screens */
+  .menu-toggle {
+    display: block;
+  }
+
+  /* Hide the desktop links and prepare the mobile menu */
+  .unorderlist {
+    position: absolute;
+    top: 80px; /* Position below the navbar */
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-height: 0; /* Hide by default */
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+  }
+  
+  /* When the menu is open, expand it to show the links */
+  .unorderlist.open {
+    max-height: 500px;
+    padding: 1rem 0;
+  }
+  
+  .unorderlist li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .unorderlist li a {
+    padding: 1rem 0;
+    display: block;
+  }
+}

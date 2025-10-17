@@ -1,0 +1,75 @@
+/* --- General Styles --- */
+.hurry-section {
+  padding: 3rem 1rem; /* Added horizontal padding for smaller screens */
+  background-color: #fdfafa;
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
+  gap: 1rem; /* Add space between the title and the content below */
+}
+
+.hurry-title {
+  font-size: 1.8rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: #333;
+  text-align: center; /* Center the text */
+  margin: 0 0 1rem 0; /* Removed specific margins for better control */
+}
+
+.hurry-content-wrapper {
+  display: flex;
+  flex-direction: row; /* This keeps items in a single row */
+  align-items: center; /* Vertically align items in the row */
+  justify-content: center; /* Horizontally center items */
+  gap: 2rem; /* Space between the animation and the button */
+  width: 100%;
+}
+
+.hurry-animation {
+  width: 200px; /* Adjusted base size */
+  height: 200px;
+}
+
+.hurry-btn {
+  padding: 12px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #D87D4A;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  white-space: nowrap; /* Prevents button text from breaking into two lines */
+}
+
+.hurry-btn:hover {
+  background-color: #ffffff;
+  transform: translateY(-3px);
+  color: black;
+  border: 1px solid black;
+}
+
+/* --- Media Query for smaller screens (e.g., tablets and mobiles) --- */
+@media (max-width: 768px) {
+  .hurry-title {
+    font-size: 1.5rem; /* Make the title slightly smaller */
+  }
+
+  .hurry-content-wrapper {
+    gap: 1.5rem; /* Reduce the gap between items */
+  }
+
+  .hurry-animation {
+    width: 150px; /* Make the animation smaller */
+    height: 150px;
+  }
+
+  .hurry-btn {
+    padding: 10px 28px; /* Adjust button padding */
+    font-size: 1rem; /* Make button font smaller */
+  }
+}

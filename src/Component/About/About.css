@@ -1,0 +1,217 @@
+/* General Body and Page Styling */
+body {
+    font-family: 'Georgia', serif; /* Simulating the elegant serif font */
+    color: #555; /* A softer black/grey */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff; /* Slightly off-white background */
+  }
+  
+  .about-us-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  /* --- Vision Section --- */
+  .vision-section {
+    display: flex;
+    flex-wrap: wrap; /* Allows stacking on smaller screens */
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  
+  .vision-image-container {
+    flex: 1; /* Takes up available space */
+    min-width: 300px; /* Ensures image isn't too small */
+    padding-right: 40px; /* Space between image and text */
+  }
+  
+  .vision-image {
+    width: 100%;
+    height: 422px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin-top: 130px;
+
+  }
+  
+  .vision-content {
+    flex: 1;
+    min-width: 300px;
+    padding-left: 40px; /* Space between text and image */
+  }
+  
+  .vision-title {
+    font-size: 2.8em; /* Larger, more prominent title */
+    font-weight: normal; /* Often serif fonts look better with normal weight */
+    color: #333; /* Darker for emphasis */
+    margin-bottom: 30px;
+    line-height: 1.2;
+  }
+  
+  .vision-text {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #666; /* Slightly lighter text */
+  }
+  
+  /* --- Core Values Intro Section --- */
+  .core-values-intro-section {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 80px auto;
+    padding: 0 20px;
+  }
+  
+  .core-values-intro-title {
+    font-size: 2.5em;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .core-values-intro-text {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #666;
+  }
+  
+  /* --- Values Grid Section --- */
+  .values-grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px; /* Space between cards */
+    padding: 0 20px; /* Padding for the entire grid */
+  }
+  
+  .value-card {
+    text-align: center;
+    padding: 30px;
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05); /* Lighter shadow for cards */
+    transition: transform 0.3s ease;
+  }
+  
+  .value-card:hover {
+    transform: translateY(-5px); /* Subtle lift effect on hover */
+  }
+  
+  .value-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px auto;
+    background-color: #e0e0e0; /* Placeholder color for icons */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em; /* For text-based icons if used */
+    color: #777;
+  }
+  
+  /* Specific icon styling (you'd replace these with actual icon elements) */
+  .mindful-handwork-icon {
+      /* For example, if you use an SVG, you'd insert it here or use background-image */
+      /* background-image: url('/path/to/handwork-icon.svg'); */
+      /* background-size: 60%; background-repeat: no-repeat; background-position: center; */
+      border: 1px solid #c9a489; /* Outline from the image */
+      background-color: transparent;
+  }
+  .mindful-handwork-icon::before {
+      content: '👁️'; /* Placeholder unicode char, replace with actual icon */
+      font-size: 2.5em;
+      line-height: 1; /* Center vertically */
+  }
+  
+  
+  .natural-materials-icon {
+      border: 1px solid #c9a489; /* Outline from the image */
+      background-color: transparent;
+  }
+  .natural-materials-icon::before {
+      content: '🌿'; /* Placeholder unicode char, replace with actual icon */
+      font-size: 2.5em;
+      line-height: 1;
+  }
+  
+  .donations-icon {
+      border: 1px solid #c9a489; /* Outline from the image */
+      background-color: transparent;
+  }
+  .donations-icon::before {
+      content: '🕊️'; /* Placeholder unicode char, replace with actual icon */
+      font-size: 2.5em;
+      line-height: 1;
+  }
+  
+  
+  .value-card-title {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .value-card-text {
+    font-size: 1em;
+    line-height: 1.7;
+    color: #666;
+  }
+  
+  /* --- Responsive Adjustments --- */
+  @media (max-width: 900px) {
+    .vision-section {
+      flex-direction: column; /* Stack image and text vertically */
+    }
+  
+    .vision-image-container,
+    .vision-content {
+      padding-right: 0;
+      padding-left: 0;
+      margin-bottom: 40px; /* Space between stacked elements */
+    }
+  
+    .vision-image {
+      height: 400px; /* Adjust height for smaller screens */
+    }
+  
+    .vision-title {
+      font-size: 2.2em;
+    }
+  
+    .core-values-intro-title {
+      font-size: 2em;
+    }
+  
+    .values-grid-section {
+      grid-template-columns: 1fr; /* Single column on very small screens */
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .about-us-page {
+      padding: 20px 10px;
+    }
+  
+    .vision-image {
+      height: 300px;
+    }
+  
+    .vision-title {
+      font-size: 1.8em;
+    }
+  
+    .core-values-intro-title {
+      font-size: 1.6em;
+    }
+  
+    .vision-text, .core-values-intro-text, .value-card-text {
+      font-size: 0.95em;
+    }
+  }
+  

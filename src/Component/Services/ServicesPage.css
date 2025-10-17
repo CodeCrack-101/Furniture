@@ -1,0 +1,308 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  .services-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+ margin-top: 30px;
+    padding: 40px 20px;
+  }
+  
+  .section-heading {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+  }
+  
+  .section-heading::after {
+    content: '';
+    width: 80px;
+    height: 3px;
+    background-color: #a0a0a0; /* Subtle grey line */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px; /* Adjust as needed */
+  }
+  
+  /* --- Hero Section --- */
+  .services-hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #e6f2f2; /* Light background for the hero */
+    margin-bottom: 60px;
+    border-radius: 8px;
+  }
+  
+  .hero-title {
+    font-family: 'Georgia', serif;
+    font-size: 3.5em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.3em;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* --- Services Grid Section --- */
+  .services-grid-section {
+    margin-bottom: 80px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .service-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%; /* Make icons round */
+    object-fit: cover;
+    border: 2px solid #a0a0a0; /* Border for placeholder icons */
+  }
+  
+  .service-title {
+    font-family: 'Georgia', serif;
+    font-size: 1.6em;
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.7;
+  }
+  
+
+  
+  
+  /* --- Testimonials Section --- */
+  .testimonials-section {
+    margin-bottom: 80px;
+    padding: 40px 0;
+  }
+  
+  .testimonial-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 800px; /* Constrain width of carousel */
+    margin: 0 auto;
+  }
+  
+  .carousel-arrow {
+    background: none;
+    border: none;
+    font-size: 2.5em;
+    color: #a0a0a0; /* Grey arrows */
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .carousel-arrow:hover {
+    color: #555;
+  }
+  
+  .testimonial-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+    flex-grow: 1; /* Allow card to expand */
+    margin: 0 20px; /* Space from arrows */
+    min-height: 250px; /* Ensure consistent height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .testimonial-text {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-author-info {
+    margin-top: 20px;
+  }
+  
+  .reviewer-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid #a0a0a0; /* Border as in the image */
+  }
+  
+  .reviewer-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #34495e;
+    margin-bottom: 5px;
+  }
+  
+  .reviewer-position {
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: #a0a0a0; /* Active dot color */
+  }
+  
+  /* --- CTA Section --- */
+  .services-cta {
+    text-align: center;
+    background-color: #fdfafa; /* Light background */
+    padding: 60px 20px;
+    border-radius: 8px;
+    margin-top: 80px;
+  }
+  
+  .cta-title {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .cta-text {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+  }
+  
+  .cta-button {
+    background-color: #D87D4A; /* Grey button */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ffffff; 
+    color: black;
+    border: 1px solid black;
+    /* Darker grey on hover */
+  }
+  
+  /* --- Responsive Adjustments --- */
+  @media (max-width: 900px) {
+    .hero-title {
+      font-size: 2.8em;
+    }
+    .hero-subtitle {
+      font-size: 1.1em;
+    }
+    .section-heading {
+      font-size: 2em;
+      margin-bottom: 50px;
+    }
+    .services-grid {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .testimonial-carousel {
+      flex-direction: column; /* Stack arrows and card vertically */
+    }
+    .carousel-arrow {
+      margin: 15px 0;
+    }
+    .testimonial-card {
+      margin: 0 0px; /* Remove horizontal margin when stacked */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .services-page-container {
+      padding: 20px 10px;
+    }
+    .hero-title {
+      font-size: 2.2em;
+    }
+    .hero-subtitle {
+      font-size: 1em;
+    }
+    .section-heading {
+      font-size: 1.8em;
+      margin-bottom: 40px;
+    }
+    .service-card {
+      padding: 20px;
+    }
+    .service-title {
+      font-size: 1.4em;
+    }
+    .testimonial-text {
+      font-size: 1em;
+    }
+    .cta-title {
+      font-size: 2em;
+    }
+    .cta-text {
+      font-size: 1em;
+    }
+    .cta-button {
+      padding: 12px 25px;
+      font-size: 1em;
+    }
+  }

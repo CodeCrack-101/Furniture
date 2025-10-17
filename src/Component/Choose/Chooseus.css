@@ -1,0 +1,48 @@
+.why-choose-us-section {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 3rem;
+    letter-spacing: 1px;
+  }
+
+  .features-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .feature-card {
+    flex: 1;
+    min-width: 220px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+
+
+
+ 
