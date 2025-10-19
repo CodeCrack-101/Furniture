@@ -89,4 +89,8 @@
     max-width: 80%; /* Control animation size on mobile */
     margin-bottom: 2rem; /* Add space between animation and text */
   }
+  .explore-btn
+  {
+    margin-right: 10px
+  }
 }
