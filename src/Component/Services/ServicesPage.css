@@ -27,7 +27,7 @@ body {
     content: '';
     width: 80px;
     height: 3px;
-    background-color: #a0a0a0; /* Subtle grey line */
+    background-color:#D87D4A ; /* Subtle grey line */
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -95,7 +95,7 @@ body {
   .service-title {
     font-family: 'Georgia', serif;
     font-size: 1.6em;
-    color: #34495e;
+    color: #000000;
     margin-bottom: 10px;
   }
   
@@ -257,6 +257,7 @@ body {
     .section-heading {
       font-size: 2em;
       margin-bottom: 50px;
+      margin-top: 50px;
     }
     .services-grid {
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

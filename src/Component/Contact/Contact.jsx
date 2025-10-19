@@ -55,14 +55,7 @@ const ContactUs = () => {
 
         {/* Clickable Map Animation */}
         <div className="map-animation" onClick={openMap}>
-          <DotLottieReact  style={{
-    width: '100%',
-    height: '100%',
-    marginTop: '20px',
-    marginLeft: '240px',
-    marginRight: 'auto',
-    display: 'block'
-  }} src="/map.lottie" loop autoplay />
+          <DotLottieReact  src="/map.lottie" loop autoplay />
         </div>
       </div>
       <Footer />

@@ -160,8 +160,8 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  margin-left: -1%;
-  margin-top: -5.8%;
+  margin-left: 10%;
+  margin-top: -17%;
 }
 
 .map-card {
@@ -185,7 +185,7 @@
 .traveller
 {
   width: 150px;
-  margin-left: -25%;
+  margin-left: -8%;
   margin-top: -10px;
 }
 .map-animation
