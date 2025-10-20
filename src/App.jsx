@@ -9,6 +9,8 @@ import Service from './Component/Services/Service';
 import Boss from './Component/Category/Boss-chair';
 import Bosss from './Component/Category/Boss-mesh-chair';
 import BosssWork from './Component/Category/Boss-mesh-work-chair';
+import Longe from './Component/Category/lounge-chair';
+import Visiter from './Component/Category/Visiter-chair';
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
         <Route path="/category/boss-chair" element={<Boss />} />
         <Route path="/category/boss-mesh-chair" element={<Bosss />} />
         <Route path="/category/boss-mesh-work-chair" element={<BosssWork />} />
+        <Route path="/category/lounge-chair" element={<Longe/>} />
+        <Route path="/category/visitor-chair" element={<Visiter/>} />
 
         <Route path="*" element={<h1>Page Not Found</h1>} />
       </Routes>

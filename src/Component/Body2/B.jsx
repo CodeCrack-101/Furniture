@@ -33,8 +33,8 @@ const handleCategoryClick = (productName) => {
   if (productName === 'Boss Chair') navigate(`/category/boss-chair`);
   else if (productName === 'Boss Mesh Chair') navigate(`/category/boss-mesh-chair`);
   else if (productName === 'Boss Mesh Work Chair') navigate(`/category/boss-mesh-work-chair`);
-  else if (productName === 'Lounge Chair') navigate(`/product`);
-  else if (productName === 'Dining Chair') navigate(`/product`);
+  else if (productName === 'Lounge Chair') navigate(`/category/lounge-chair`);
+  else if (productName === 'Visitor Chair') navigate(`/category/visitor-chair`);
   else if (productName === 'Cafe Chair') navigate(`/product`);
   else if (productName === 'Bar Chair') navigate(`/product`);
   else if (productName === 'Waiting Chair') navigate(`/product`);
