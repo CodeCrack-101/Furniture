@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Products.css'
 import Navbar from '../Navbar/Navbar';
 import Footer from '../../Component/Footer/Footer'
@@ -45,6 +46,8 @@ const ProductSearch = () => {
     setFilteredProducts(results);
   }, [searchTerm]);
 
+  const navigate = useNavigate()
+
   return (
     <>
     <Navbar/>
@@ -80,6 +83,7 @@ const ProductSearch = () => {
             <p>No products found for "{searchTerm}". Try a different search!</p>
           </div>
         )}
+      <button className='btn' onClick={()=>navigate('/contact')}>Enquiry Now</button>
       </div>
       <Footer/>
     </>

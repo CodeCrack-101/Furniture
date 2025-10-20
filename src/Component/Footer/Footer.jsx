@@ -129,8 +129,7 @@ const Footer = () => {
         <br/>
         Devloped By Khan Obaid
         <br/>
-        +91 9321282475
-      </div>
+        +91 70213 84306      </div>
     </footer>
   );
 };
