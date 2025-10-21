@@ -4,14 +4,14 @@ import Navbar from '../../Component/Navbar/Navbar';
 import './Boos-chair.css';
 
 const allProducts = [
-  { id: 1, name: 'NE66', Price:"₹2250", category: 'Visitor Chair', imageUrl: 'https://media.makrocambodiaclick.com/PRODUCT_1658747016501.jpeg' },
-  { id: 2, name: 'NE67', Price:"₹2250", category: 'Visitor Chair', imageUrl: 'https://www.chennaichairs.com/images/thumbs/0006760_okazaki-visitor-chair_550.webp' },
-  { id: 3, name: 'NE73', Price:"₹2250", category: 'Visitor Chair', imageUrl: 'https://noboss.in/cdn/shop/products/10057323_1_800x.jpg?v=1606621766' },
-  { id: 4, name: 'NE75', Price:"₹2250", category: 'Visitor Chair', imageUrl: 'https://5.imimg.com/data5/SELLER/Default/2023/7/329480674/CC/XZ/DH/79276195/1-500x500.jpg'},
-  { id: 5, name: 'NE78', Price:"₹2250", category: 'Visitor Chair', imageUrl: 'https://5.imimg.com/data5/SELLER/Default/2024/1/380678692/PY/XW/VN/1186061/office-visitor-chair-500x500.jpg' },
-  { id: 6, name: 'NE79', Price:"₹2250", category: 'Visitor Chair', imageUrl: 'https://image.made-in-china.com/391f0j00YMUiormSZLRF/Office-Furniture-Cheap-Stacking-Visitor-Chair-with-Chrome-Frame.webp' },
-  { id: 7, name: 'NE80', Price:"₹2250", category: 'Visitor Chair', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT34Rkpjsu1yJwS0F_Id-6bAZf_RZBuNXldGKMwsfHtGY-2QKXUpMID4balx7MtN7enR6A&usqp=CAU' },
-  { id: 8, name: 'NE81', Price:"₹2250", category: 'Visitor Chair', imageUrl: 'https://m.media-amazon.com/images/I/41VGUPHpY4L.jpg' },
+  { id: 1, name: 'NE66', category: 'Visitor Chair', imageUrl: 'https://media.makrocambodiaclick.com/PRODUCT_1658747016501.jpeg' },
+  { id: 2, name: 'NE67', category: 'Visitor Chair', imageUrl: 'https://www.chennaichairs.com/images/thumbs/0006760_okazaki-visitor-chair_550.webp' },
+  { id: 3, name: 'NE73', category: 'Visitor Chair', imageUrl: 'https://noboss.in/cdn/shop/products/10057323_1_800x.jpg?v=1606621766' },
+  { id: 4, name: 'NE75', category: 'Visitor Chair', imageUrl: 'https://5.imimg.com/data5/SELLER/Default/2023/7/329480674/CC/XZ/DH/79276195/1-500x500.jpg'},
+  { id: 5, name: 'NE78', category: 'Visitor Chair', imageUrl: 'https://5.imimg.com/data5/SELLER/Default/2024/1/380678692/PY/XW/VN/1186061/office-visitor-chair-500x500.jpg' },
+  { id: 6, name: 'NE79', category: 'Visitor Chair', imageUrl: 'https://image.made-in-china.com/391f0j00YMUiormSZLRF/Office-Furniture-Cheap-Stacking-Visitor-Chair-with-Chrome-Frame.webp' },
+  { id: 7, name: 'NE80', category: 'Visitor Chair', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT34Rkpjsu1yJwS0F_Id-6bAZf_RZBuNXldGKMwsfHtGY-2QKXUpMID4balx7MtN7enR6A&usqp=CAU' },
+  { id: 8, name: 'NE81', category: 'Visitor Chair', imageUrl: 'https://m.media-amazon.com/images/I/41VGUPHpY4L.jpg' },
 ];
 
 const Visitor = () => {

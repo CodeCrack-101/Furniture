@@ -7,6 +7,7 @@ import Body from '../Body1/Body'
 import B from '../Body2/B'
 import Chooseus from  '../../Component/Choose/Chooseus'
 import Hurry from '../C/Hurry'
+import Boost from '../Boost/Boost'
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
     <>
     <Navbar/>
     <Header/>
+    <Boost/>
     <Dial/>
     <Body/>
     <B/>

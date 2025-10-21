@@ -1,0 +1,55 @@
+.overlap-container {
+    position: relative;
+    width: 60%;
+    margin: 3rem auto;
+    padding: 2rem;
+    /* background-color: #fdfafa; */
+    border-radius: 12px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+  }
+  
+  /* Paragraph styling */
+  .overlap-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* ✅ Responsive adjustments */
+  @media (max-width: 1024px) {
+    .overlap-container {
+      width: 80%;
+      padding: 1.8rem;
+    }
+  
+    .overlap-container p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .overlap-container {
+      width: 90%;
+      padding: 1.5rem;
+    }
+  
+    .overlap-container p {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .overlap-container {
+      width: 95%;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+  
+    .overlap-container p {
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+  }
+  

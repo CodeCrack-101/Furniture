@@ -53,29 +53,26 @@ const WhyChooseUs = () => {
               <QualityIcon />
             </div>
             <h3>Quality</h3>
-            <p>This slide is 100% editable. Adapt it to your needs and capture your audience's attention.</p>
+            <p>We believe true craftsmanship lies in the details. Every piece of furniture we create is made using premium materials and expert techniques to ensure lasting durability, comfort, and beauty. Quality isn’t just a feature — it’s our promise.</p>
           </div>
           <div className="feature-card">
             <div className="icon-container">
               <PersonnelIcon />
             </div>
             <h3>Personnel</h3>
-            <p>This slide is 100% editable. Adapt it to your needs and capture your audience's attention.</p>
-          </div>
+            <p>Your home is unique — and your furniture should be too. From custom finishes to tailored designs, we offer personalized solutions that reflect your style, space, and personality. We make sure every piece feels truly yours.</p>          </div>
           <div className="feature-card">
             <div className="icon-container">
               <InnovationIcon />
             </div>
             <h3>Innovation</h3>
-            <p>This slide is 100% editable. Adapt it to your needs and capture your audience's attention.</p>
-          </div>
+            <p>We blend modern design with smart functionality to bring you furniture that fits today’s lifestyle. Through constant innovation in design, materials, and comfort, we redefine the way you experience your living spaces.</p>          </div>
           <div className="feature-card">
             <div className="icon-container">
               <CommitmentIcon />
             </div>
             <h3>Commitment</h3>
-            <p>This slide is 100% editable. Adapt it to your needs and capture your audience's attention.</p>
-          </div>
+            <p>Our commitment goes beyond just selling furniture. We are dedicated to earning your trust through exceptional service, timely delivery, and long-lasting support. Every interaction reflects our passion for excellence and care for our customers.</p>          </div>
         </div>
       </div>
     </>
