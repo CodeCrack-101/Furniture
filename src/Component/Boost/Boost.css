@@ -3,6 +3,41 @@
 /* Styles for the main container */
 .overlap-container {
     /* Use a percentage width for flexibility, with a max-width for large screens */
+    width: 80%;
+    max-width: 800px; /* Adjust as needed */
+    
+    /* Center the container on the page */
+    margin: 2rem auto; 
+    
+    /* Add internal spacing */
+    padding: 2.5rem; 
+    
+    /* Styling */
+    background-color: #f8f9fa; /* A light, clean background */
+    border-radius: 10px; /* Soft rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* A subtle shadow */
+    text-align: center; /* Center the text inside */
+    border-left: 5px solid #; /* An accent border */
+  }
+  
+  /* Styles for the text */
+  .overlap-container p {
+    font-size: 1.2rem; /* Readable font size */
+    line-height: 1.6; /* Spacing between lines */
+    color: #333; /* Dark text color for contrast */
+    margin: 0; /* Remove default paragraph margin */
+  }
+  
+  /* --- Responsive Adjustments --- */
+  
+  /* For tablets and smaller devices */
+  @media (max-width: 768px) {
+    .overlap-container {
+      /* Boost.css */
+
+/* Styles for the main container */
+.overlap-container {
+    /* Use a percentage width for flexibility, with a max-width for large screens */
     width: 90%;
     max-width: 800px; /* Adjust as needed */
     
@@ -37,19 +72,8 @@
     }
   
     .overlap-container p {
-      font-size: 1.1rem; /* Slightly smaller font */
+      font-size: 1.1rem;
     }
   }
   
-  /* For mobile phones */
-  @media (max-width: 480px) {
-    .overlap-container {
-      width: 95%; /* Use more of the screen */
-      padding: 1.5rem; /* Reduce padding for small screens */
-      margin: 1rem auto; /* Reduce top/bottom margin */
-    }
   
-    .overlap-container p {
-      font-size: 1rem; /* Ensure font is not too large */
-    }
-  }
