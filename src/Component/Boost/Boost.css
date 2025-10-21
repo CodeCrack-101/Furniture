@@ -17,17 +17,6 @@
     font-family: "Poppins", sans-serif;
   }
   
-  /* ✅ Responsive adjustments */
-  @media (max-width: 1024px) {
-    .overlap-container {
-      width: 80%;
-      padding: 1.8rem;
-    }
-  
-    .overlap-container p {
-      font-size: 1rem;
-    }
-  }
   
   @media (max-width: 768px) {
     .overlap-container {
