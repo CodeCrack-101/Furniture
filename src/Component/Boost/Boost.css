@@ -3,7 +3,7 @@
 /* Styles for the main container */
 .overlap-container {
     /* Use a percentage width for flexibility, with a max-width for large screens */
-    width: 80%;
+    width: 70%;
     max-width: 800px; /* Adjust as needed */
     
     /* Center the container on the page */
