@@ -73,7 +73,7 @@ const Footer = () => {
                 verticalAlign: "middle",
               }}
             ></lord-icon>
-            +91 9819855012
+            +91 7021384306
           </p>
           <p>
             <lord-icon
@@ -129,7 +129,7 @@ const Footer = () => {
         <br/>
         Devloped By Khan Obaid
         <br/>
-        +91 7021384306</div>
+        +91 9321282475</div>
     </footer>
   );
 };
