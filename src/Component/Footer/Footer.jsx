@@ -129,7 +129,7 @@ const Footer = () => {
         <br/>
         Devloped By Khan Obaid
         <br/>
-        +91 7021384306      </div>
+        +91 7021384306</div>
     </footer>
   );
 };
