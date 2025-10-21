@@ -9,7 +9,7 @@
   min-height: 60vh; /* A good height to prevent it from being too short */
   margin: 100px auto 0 auto; /* Top margin, and auto on sides to center it */
   padding: 2rem;
-  background-color: #d26060;
+  background-color: #fdfafa;
   border-radius: 10px; /* Optional: adds nice rounded corners */
   box-sizing: border-box; /* Ensures padding doesn't add to the width */
 }
