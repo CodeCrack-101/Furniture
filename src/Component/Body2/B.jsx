@@ -39,7 +39,7 @@ const handleCategoryClick = (productName) => {
   else if (productName === 'Bar Chair') navigate(`/product`);
   else if (productName === 'Waiting Chair') navigate(`/product`);
   else if (productName === 'Sofa') navigate(`/product`);
-  else if (productName === 'Steel Cupboard') navigate(`/product`);
+  else if (productName === 'Steel Cupboard') navigate(`/category/cupboard`);
 };
 
 
