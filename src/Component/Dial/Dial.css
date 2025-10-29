@@ -31,13 +31,25 @@
     margin-top: 16px;
   }
   
+  .display
+  {
+    display: flex;
+    flex-direction: column;
+  }
   /* Mobile Responsiveness */
   @media screen and (max-width: 767px) {
     .whatsapp_float, .call_float {
       width: 40px;
       height: 40px;
+      display: flex;
+      flex-direction: column;
       bottom: 20px;
       font-size: 22px;
+    }
+    .display
+    {
+      display: flex;
+      flex-direction: column;
     }
     .h{
       width: 80px;

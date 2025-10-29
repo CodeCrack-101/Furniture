@@ -6,7 +6,7 @@ const whatsappNumber = "+91 9594718112"; // International format, e.g., 91999999
 const callNumber = "+91 7021384306"; // Same format, e.g., 919999999999
 
 const App = () => (
-  <div>
+  <div className="display">
     {/* WhatsApp Floating Button */}
     <a
       href={`https://wa.me/${whatsappNumber}`}

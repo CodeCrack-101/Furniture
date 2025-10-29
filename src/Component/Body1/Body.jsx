@@ -1,4 +1,6 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 import './Body.css'
 // A simple SVG icon component for reusability
 const FeatureIcon = ({ children }) => (
@@ -6,8 +8,8 @@ const FeatureIcon = ({ children }) => (
     {children}
   </div>
 );
-
 const FurnitureShowcase = () => {
+  const navigate = useNavigate()
   return (
     <>
   
@@ -39,7 +41,7 @@ const FurnitureShowcase = () => {
               </div>
             </div>
           </div>
-          <button className="collection-btn">
+          <button className="collection-btn" onClick={()=>navigate('/product')} >
             View Collection &rarr;
           </button>
         </div>
