@@ -68,7 +68,7 @@ const ProductSearch = () => {
           <div className="product-grid">
             {filteredProducts.map(product => (
               <div key={product.id} className="product-card">
-                <div className="product-image-wrapper">
+                <div className="product-image-wrapper3">
                   <img src={product.imageUrl} alt={product.name} />
                 </div>
                 <div className="product-info">

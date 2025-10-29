@@ -25,7 +25,7 @@ const longe = () => {
         <div className="category-grid">
           {allProducts.map(product => (
             <div key={product.id} className="category-card">
-              <div className="category-image-wrapper">
+              <div className="category-image-wrapper2">
                 <img src={product.imageUrl} alt={product.name} className="category-image"/>
               </div>
               <div className="category-info">

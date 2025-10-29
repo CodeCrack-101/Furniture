@@ -6,11 +6,11 @@ const allProducts = [
   { id: 1, name: 'Boss Chair', category: 'Chair', imageUrl: 'https://5.imimg.com/data5/SELLER/Default/2023/10/350488058/SQ/KM/MG/7199438/boss-hb-500x500.png' },
   { id: 2, name: 'Boss Mesh Chair', category: 'Chair', imageUrl: 'https://www.bestbuy-officechairs.co.uk/media/img/shop/srcpd/013001.jpg' },
   { id: 3, name: 'Boss Mesh Work Chair', category: 'Chair', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ0x-2m4ffsj1-gHwzRzf6rTLpSwgsACMzw2Dm-G8wXnWvocSEupcQTfTQfcpukXGOirU&usqp=CAU' },
-  { id: 4, name: 'Lounge Chair', category: 'Chair', imageUrl: 'https://www.josmostudio.com/cdn/shop/files/1_84.webp?v=1752143351&width=1946' },
+  { id: 4, name: 'Lounge Chair', category: 'Chair', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbAFUQkLkELO5_nfjP3248pq24AjAUtFi5UZ1bGaAVcwL0LCbpuuh3uW_oW-M9PIvzWJg&usqp=CAU' },
   { id: 5, name: 'Visitor Chair', category: 'Chair', imageUrl: 'https://5.imimg.com/data5/MY/FT/MY-41397653/visitor-chairs-ocz-182-250x250.jpg' },
   { id: 6, name: 'Dining Chair', category: 'Chair', imageUrl: 'https://media.furniturerow.com/image/list/bl_optimize/t_sku_image2/w_1024/f_jpg/CS-HCHTCY.json' },
   { id: 7, name: 'Cafe Chair', category: 'Chair', imageUrl: 'https://5.imimg.com/data5/MY/FT/MY-41397653/visitor-chairs-ocz-182-250x250.jpg' },
-  { id: 8, name: 'Bar Chair', category: 'Chair', imageUrl: 'https://sinhupfatt.com/wp-content/uploads/2024/01/BS-717-1.jpg' },
+  { id: 8, name: 'Bar Chair', category: 'Chair', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-2HeQnf98ArVnNR2N0OnPfy7wCbIatCXUK1nNSoUGR0r9vrvZ0-jU83AQzlAlJRV1sUU&usqp=CAU' },
   { id: 9, name: 'Waiting Chair', category: 'Chair', imageUrl: 'https://cdn.moglix.com/p/xAbeZSiMiuqYm-xxlarge.jpg' },
   { id: 10, name: 'Sofa', category: 'Sofa', imageUrl: 'https://cdn.shopify.com/s/files/1/0758/7397/6610/files/75001-38-SD-P1-KO_1_large.jpg?v=1715376191' },
   { id: 11, name:'Steel Cupboard', category: 'Cupboard', imageUrl: 'https://m.media-amazon.com/images/I/51LjfLHB55L.jpg' },
@@ -61,7 +61,7 @@ const handleCategoryClick = (productName) => {
         <div className="product-grid">
           {filteredProducts.map(product => (
             <div key={product.id} className="product-card">
-              <div className="product-image-wrapper">
+              <div className="product-image-wrapper1">
                 <img
                   onClick={() => handleCategoryClick(product.name)}
                   src={product.imageUrl}
