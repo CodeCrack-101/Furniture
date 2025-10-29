@@ -55,7 +55,6 @@ const Home = () => {
       </Helmet>
 
       {/* Your Page Layout */}
-      <AdBanner />
       <Navbar />
       <Header />
       <Boost />
@@ -66,6 +65,7 @@ const Home = () => {
       <ShopReviews/>
       <Chooseus />
       <Footer />
+      <AdBanner />
     </>
   );
 };
