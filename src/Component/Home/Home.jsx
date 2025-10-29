@@ -10,6 +10,7 @@ import Chooseus from '../../Component/Choose/Chooseus';
 import Hurry from '../C/Hurry';
 import Boost from '../Boost/Boost';
 import ShopReviews from '../Shopreview/Shopreview';
+import AdBanner from '../AdBanner'
 
 const Home = () => {
   return (
@@ -54,6 +55,7 @@ const Home = () => {
       </Helmet>
 
       {/* Your Page Layout */}
+      <AdBanner />
       <Navbar />
       <Header />
       <Boost />
