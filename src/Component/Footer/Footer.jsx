@@ -95,14 +95,17 @@ const Footer = () => {
 
       {/* Social Icons */}
       <div className="icon">
-        <button className="icon-btn">
-          <lord-icon
-            src="https://cdn.lordicon.com/roscsuft.json"
-            trigger="hover"
-            state="morph-alone"
-            style={{ width: "30px", height: "50px" }}
-          ></lord-icon>
-        </button>
+      <button
+  className="icon-btn"
+  onClick={() => window.open('https://www.instagram.com/shrig_chair_service?igsh=MWFsbDM3OGFzZG5paQ==', '_blank', 'noopener,noreferrer')}
+>
+  <lord-icon
+    src="https://cdn.lordicon.com/roscsuft.json"
+    trigger="hover"
+    state="morph-alone"
+    style={{ width: "30px", height: "50px" }}
+  ></lord-icon>
+</button>
 
         <button className="icon-btn">
           <lord-icon

@@ -9,6 +9,7 @@ import B from '../Body2/B';
 import Chooseus from '../../Component/Choose/Chooseus';
 import Hurry from '../C/Hurry';
 import Boost from '../Boost/Boost';
+import ShopReviews from '../Shopreview/Shopreview';
 
 const Home = () => {
   return (
@@ -60,6 +61,7 @@ const Home = () => {
       <Body />
       <B />
       <Hurry />
+      <ShopReviews/>
       <Chooseus />
       <Footer />
     </>
