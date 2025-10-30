@@ -15,49 +15,10 @@ import AdBanner from '../AdBanner'
 const Home = () => {
   return (
     <>
-      <Helmet>
-        {/* 🔹 SEO Title & Meta */}
-        <title>Shirig Furniture | Modern Sofas, Chairs & Home Decor</title>
-        <meta
-          name="description"
-          content="Buy premium sofas, chairs, and home furniture online at Shirig. Stylish, durable, and affordable furniture crafted for every home."
-        />
-        <meta
-          name="keywords"
-          content="sofas, chairs, recliners, tables, home furniture, modern furniture, Shirig"
-        />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.shirig.com/" />
-
-        {/* 🔹 Structured Data (Schema for Google) */}
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "FurnitureStore",
-              "name": "Shirig Furniture",
-              "url": "https://www.shirig.com",
-              "logo": "https://www.shirig.com/logo.png",
-              "description": "Buy premium sofas, chairs, and modern furniture at Shirig.",
-              "sameAs": [
-                "https://www.instagram.com/shirig",
-                "https://www.facebook.com/shirig"
-              ],
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Mumbai",
-                "addressRegion": "Maharashtra",
-                "addressCountry": "India"
-              }
-            }
-          `}
-        </script>
-      </Helmet>
-
-      {/* Your Page Layout */}
       <Navbar />
       <Header />
       <Boost />
+      {/* 
       <Dial />
       <Body />
       <B />
@@ -65,8 +26,8 @@ const Home = () => {
       <ShopReviews/>
       <Chooseus />
       <Footer />
-      <AdBanner />
-    </>
+      <AdBanner /> */}
+    </> 
   );
 };
 
