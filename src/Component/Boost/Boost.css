@@ -1,61 +1,77 @@
 /* Boost.css */
 
-/* --- Main Container --- */
+/* Styles for the main container */
 .overlap-container {
-  width: 70%;
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 2.5rem;
-  text-align: center;
-  background-color: #fff; /* Light neutral background */
-  border-left: 5px solid #D87D4A; /* Accent color */
-  border-right: 5px solid #D87D4A; /* Accent color */
-}
-
-/* --- Text Styling --- */
-.overlap-container p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  color: #333;
-  margin: 0;
-  transition: all 0.3s ease-in-out;
-}
-.overlap-container span
-{
-  color: #D87D4A;
-}
-/* --- Button Styling --- */
-.overlap-container button {
-  margin-top: 1.5rem;
-  padding: 0.6rem 1.4rem;
-  font-size: 1rem;
-  color: #fff;
-  background-color: #D87D4A;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.overlap-container button:hover {
-  background-color: #b86536;
-  transform: translateY(-2px);
-}
-
-/* --- Responsive Adjustments --- */
-@media (max-width: 768px) {
-  .overlap-container {
-    width: 78%;
-    padding: 2rem;
+    /* Use a percentage width for flexibility, with a max-width for large screens */
+    width: 70%;
+    max-width: 800px; /* Adjust as needed */
+    
+    /* Center the container on the page */
+    margin: 2rem auto; 
+    
+    /* Add internal spacing */
+    padding: 2.5rem; 
+    
+    /* Styling */
+    text-align: center; /* Center the text inside */
+    border-left: 5px solid #D87D4A; /* An accent border */
   }
-
+  
+  /* Styles for the text */
   .overlap-container p {
-    font-size: 1.1rem;
+    font-size: 1.2rem; /* Readable font size */
+    line-height: 1.6; /* Spacing between lines */
+    color: #000000; /* Dark text color for contrast */
+    margin: 0; /* Remove default paragraph margin */
   }
+  
+  /* --- Responsive Adjustments --- */
+  
+  /* For tablets and smaller devices */
+  @media (max-width: 768px) {
+    .overlap-container {
+      /* Boost.css */
 
-  .overlap-container button {
-    width: 65%;
-    padding: 0.8rem;
-    font-size: 1.05rem;
+/* Styles for the main container */
+.overlap-container {
+    /* Use a percentage width for flexibility, with a max-width for large screens */
+    width: 90%;
+    max-width: 800px; /* Adjust as needed */
+    
+    /* Center the container on the page */
+    margin: 2rem auto; 
+    
+    /* Add internal spacing */
+    padding: 2.5rem; 
+    
+    /* Styling */
+    background-color: #f8f9fa; /* A light, clean background */
+    border-radius: 10px; /* Soft rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* A subtle shadow */
+    text-align: center; /* Center the text inside */
+    border-left: 5px solid #007bff; /* An accent border */
+  }
+  
+  /* Styles for the text */
+  .overlap-container p {
+    font-size: 1.2rem; /* Readable font size */
+    line-height: 1.6; /* Spacing between lines */
+    color: #333; /* Dark text color for contrast */
+    margin: 0; /* Remove default paragraph margin */
   }
 }
+  }
+  /* --- Responsive Adjustments --- */
+  
+  /* For tablets and smaller devices */
+  @media (max-width: 768px) {
+    .overlap-container {
+      padding: 2rem; /* Slightly reduce padding */
+    }
+  
+    .overlap-container p {
+      font-size: 1.1rem;
+    }
+  }
+
+  
