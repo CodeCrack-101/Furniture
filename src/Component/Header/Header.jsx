@@ -14,8 +14,8 @@ const Header = () => {
         <TypeAnimation
           sequence={[
             'Hello,', 1000,
-            'Welcome To Khan Wallpaper,', 1500,
-            'Contact Now!', 1200,
+            'Welcome To Our Shop,', 1500,
+            'Connect Now', 1200,
           ]}
           wrapper="div"
           cursor={true}
@@ -33,7 +33,7 @@ const Header = () => {
       {/* --- Lottie Animation Container --- */}
       <div className="header-animation-container">
         <DotLottieReact
-          src="/Welcome.lottie"
+          src="/Furniture.lottie"
           loop
           autoplay
           className="header-animation"
