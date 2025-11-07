@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node sitemap-generator.cjs && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sitemap": "node sitemap-generator.js"
+    "sitemap": "node sitemap-generator.cjs"
   },
   "dependencies": {
     "@lottiefiles/dotlottie-react": "^0.17.5",
