@@ -11,7 +11,7 @@ import Hurry from '../C/Hurry';
 import Boost from '../Boost/Boost';
 import ShopReviews from '../Shopreview/Shopreview';
 import AdBanner from '../AdBanner'
-
+//fix
 const Home = () => {
   return (
     <>
