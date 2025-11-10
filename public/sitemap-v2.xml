@@ -6,7 +6,8 @@
     xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
     <url>
-        <loc>https://www.shirig.com/</loc>  <lastmod>2025-11-09T12:00:00.000Z</lastmod>
+        <loc>https://www.shirig.com/</loc> 
+        <lastmod>2025-11-09T12:00:00.000Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
