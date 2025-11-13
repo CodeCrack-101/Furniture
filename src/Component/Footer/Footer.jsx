@@ -10,11 +10,11 @@ const Footer = () => {
         {/* Left Section */}
         <div className="footer-section">
           <h1>
-            Shiri<span>G</span>
+            Shree <span>G</span>
           </h1>
           <hr />
           <p>
-            ShiriG offers a wide range of custom-designed furniture,
+            Shree G offers a wide range of custom-designed furniture,
             including sofas and wooden beds, with expert craftsmanship and a
             commitment to customer satisfaction. At ShiriG, every order
             is made on demand, and services like restoring and refurbishing old
@@ -128,7 +128,7 @@ const Footer = () => {
 
       {/* Bottom */}
       <div className="footer-bottom">
-        &copy; {new Date().getFullYear()} ShiriG. All Rights Reserved.
+        &copy; {new Date().getFullYear()} Shree G. All Rights Reserved.
         <br/>
         Devloped By Khan Obaid
         <br/>
