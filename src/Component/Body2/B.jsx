@@ -3,13 +3,13 @@ import './B.css';
 import { useNavigate } from 'react-router-dom';
 
 const allProducts = [
-  // { id: 1, name: 'Boss Chair', category: 'Chair', imageUrl: 'https://5.imimg.com/data5/SELLER/Default/2023/10/350488058/SQ/KM/MG/7199438/boss-hb-500x500.png' },
+  { id: 1, name: 'Boss Chair', category: 'Chair', imageUrl: '' },
   { id: 2, name: 'Boss Mesh Chair', category: 'Chair', imageUrl: 'https://www.bestbuy-officechairs.co.uk/media/img/shop/srcpd/013001.jpg' },
   { id: 3, name: 'Boss Mesh Work Chair', category: 'Chair', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ0x-2m4ffsj1-gHwzRzf6rTLpSwgsACMzw2Dm-G8wXnWvocSEupcQTfTQfcpukXGOirU&usqp=CAU' },
-  { id: 4, name: 'Lounge Chair', category: 'Chair', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbAFUQkLkELO5_nfjP3248pq24AjAUtFi5UZ1bGaAVcwL0LCbpuuh3uW_oW-M9PIvzWJg&usqp=CAU' },
-  // { id: 5, name: 'Visitor Chair', category: 'Chair', imageUrl: 'https://5.imimg.com/data5/MY/FT/MY-41397653/visitor-chairs-ocz-182-250x250.jpg' },
-  { id: 6, name: 'Dining Chair', category: 'Chair', imageUrl: 'https://media.furniturerow.com/image/list/bl_optimize/t_sku_image2/w_1024/f_jpg/CS-HCHTCY.json' },
-  // { id: 7, name: 'Cafe Chair', category: 'Chair', imageUrl: 'https://5.imimg.com/data5/MY/FT/MY-41397653/visitor-chairs-ocz-182-250x250.jpg' },
+  { id: 4, name: 'Lounge Chair', category: 'Chair', imageUrl: '' },
+  { id: 5, name: 'Visitor Chair', category: 'Chair', imageUrl: 'https://5.imimg.com/data5/MY/FT/MY-41397653/visitor-chairs-ocz-182-250x250.jpg' },
+  { id: 6, name: 'Dining Chair', category: 'Chair', imageUrl: '' },
+  { id: 7, name: 'Cafe Chair', category: 'Chair', imageUrl: 'https://5.imimg.com/data5/MY/FT/MY-41397653/visitor-chairs-ocz-182-250x250.jpg' },
   { id: 8, name: 'Bar Chair', category: 'Chair', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-2HeQnf98ArVnNR2N0OnPfy7wCbIatCXUK1nNSoUGR0r9vrvZ0-jU83AQzlAlJRV1sUU&usqp=CAU' },
   { id: 9, name: 'Waiting Chair', category: 'Chair', imageUrl: 'https://cdn.moglix.com/p/xAbeZSiMiuqYm-xxlarge.jpg' },
   { id: 10, name: 'Sofa', category: 'Sofa', imageUrl: 'https://cdn.shopify.com/s/files/1/0758/7397/6610/files/75001-38-SD-P1-KO_1_large.jpg?v=1715376191' },
