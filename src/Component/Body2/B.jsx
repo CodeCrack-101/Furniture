@@ -3,12 +3,12 @@ import './B.css';
 import { useNavigate } from 'react-router-dom';
 
 const allProducts = [
-  { id: 1, name: 'Boss Chair', category: 'Chair', imageUrl: '' },
+  { id: 1, name: 'Boss Chair', category: 'Chair', imageUrl: 'https://5.imimg.com/data5/GP/BI/MY-9399091/executive-chair-250x250.jpg' },
   { id: 2, name: 'Boss Mesh Chair', category: 'Chair', imageUrl: 'https://www.bestbuy-officechairs.co.uk/media/img/shop/srcpd/013001.jpg' },
   { id: 3, name: 'Boss Mesh Work Chair', category: 'Chair', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ0x-2m4ffsj1-gHwzRzf6rTLpSwgsACMzw2Dm-G8wXnWvocSEupcQTfTQfcpukXGOirU&usqp=CAU' },
-  { id: 4, name: 'Lounge Chair', category: 'Chair', imageUrl: '' },
+  { id: 4, name: 'Lounge Chair', category: 'Chair', imageUrl: 'https://shop.hofindia.com/cdn/shop/files/hof-cali_7.jpg?v=1737784583&width=1946' },
   { id: 5, name: 'Visitor Chair', category: 'Chair', imageUrl: 'https://5.imimg.com/data5/MY/FT/MY-41397653/visitor-chairs-ocz-182-250x250.jpg' },
-  { id: 6, name: 'Dining Chair', category: 'Chair', imageUrl: '' },
+  { id: 6, name: 'Dining Chair', category: 'Chair', imageUrl: 'https://5.imimg.com/data5/IA/JR/UB/SELLER-77578222/wooden-chair-500x500.jpg' },
   { id: 7, name: 'Cafe Chair', category: 'Chair', imageUrl: 'https://5.imimg.com/data5/MY/FT/MY-41397653/visitor-chairs-ocz-182-250x250.jpg' },
   { id: 8, name: 'Bar Chair', category: 'Chair', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-2HeQnf98ArVnNR2N0OnPfy7wCbIatCXUK1nNSoUGR0r9vrvZ0-jU83AQzlAlJRV1sUU&usqp=CAU' },
   { id: 9, name: 'Waiting Chair', category: 'Chair', imageUrl: 'https://cdn.moglix.com/p/xAbeZSiMiuqYm-xxlarge.jpg' },
